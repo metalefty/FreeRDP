@@ -31,6 +31,7 @@
 
 #ifdef __APPLE__
 #include <malloc/malloc.h>
+#elif __FreeBSD__
 #else
 #include <malloc.h>
 #endif
